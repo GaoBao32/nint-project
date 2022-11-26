@@ -5,7 +5,12 @@ import HomeView from '../views/HomeView.vue';
 Vue.use(VueRouter);
 
 const routes = [
-
+  // 测试git
+  {
+    path: 'cesigit',
+    name: 'cesigit',
+    component: () => import('../views/cesigit.vue'),
+  },
   // 重定向
   {
     path: '/',
